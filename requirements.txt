@@ -4,6 +4,8 @@ langgraph-checkpoint-sqlite
 langsmith
 langchain-community
 langchain-core
-langchain-openai
+langchain-mistralai
+langchain-chroma
 tavily-python
 langgraph-cli
+pypdf
