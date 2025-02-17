@@ -1,7 +1,7 @@
 from typing import Literal
 from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import HumanMessage, SystemMessage
-from langchain_core.pydantic_v1 import BaseModel, Field, validator, Literal
+from langchain_core.pydantic_v1 import BaseModel, Field, validator
 import yaml
 with open("system_prompts.yaml", "r") as file:
     prompts = yaml.safe_load(file)
